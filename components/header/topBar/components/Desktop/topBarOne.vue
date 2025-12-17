@@ -280,7 +280,7 @@ export default {
   top: 0;
   left: 0;
   right: 0;
-  background-color: black !important;
+  background-color: white !important;
   z-index: 700;
   transition: all 0.3s ease;
 }
@@ -361,13 +361,13 @@ export default {
 /* Logo */
 .logoTopbar {
   height: auto;
-  width: 100px;
+  width: 80px;
   transition: all 0.3s ease;
 }
 
 .logoTopbar--scrolled {
   height: auto !important;
-  width: 80px !important;
+  width: 60px !important;
 }
 
 /* Menu */
@@ -385,7 +385,7 @@ export default {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 500;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   display: flex;
   align-items: center;

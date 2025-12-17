@@ -13,7 +13,7 @@
     >
       <close-order-dialog v-if="closeOrderModal" />
       <top-bar />
-      <div style="height: 100px" class="d-none d-md-block"></div>
+      <div style="height: 120px" class="d-none d-md-block"></div>
       <nuxt v-if="startApp" :style="layout.default.nuxtDivStyle" />
       <div v-else :style="layout.default.nuxtDivStyle"></div>
       <footer-component />

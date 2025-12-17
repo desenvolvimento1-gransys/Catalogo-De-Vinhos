@@ -46,6 +46,8 @@ export default {
 
 <style scoped>
 .promo-banner {
+ max-width: 1400px;
+  margin: 0 auto;
   background: linear-gradient(135deg, #fafaf9 0%, #f5f5f4 100%);
   border: 1px solid #e7e5e4;
 }
